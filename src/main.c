@@ -10,8 +10,8 @@ void DisableOpenGL (HWND hWnd, HDC hDC, HGLRC hRC);
 int W;
 int H;
 const int RND = 3;					// -a-b-g-r
-const unsigned int BACK = 0;	 	// 00000000
-const unsigned int FORE = 16777215; // 00FFFFFF
+const unsigned int BACK = 0;	 			// 00000000
+const unsigned int FORE = 16777215; 			// 00FFFFFF
 int zoom = 1;
 
 int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int iCmdShow) {
